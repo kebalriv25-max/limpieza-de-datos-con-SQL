@@ -1,5 +1,5 @@
 /* ============================================================================
-   H1/H2 - PLANTILLA DE LIMPIEZA EN SQL SERVER (T-SQL)
+   H1/H2 - LIMPIEZA EN SQL SERVER (T-SQL)
    Delfosti - Medios de Pago
    cargar staging (texto) -> ejecutar -> tabla limpia.
    ============================================================================ */
