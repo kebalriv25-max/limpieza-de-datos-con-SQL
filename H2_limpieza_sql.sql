@@ -1,9 +1,8 @@
 /* ============================================================================
-   H1/H2 - PLANTILLA DE LIMPIEZA EN SQL SERVER (T-SQL)
+   H1/H2 - LIMPIEZA EN SQL SERVER (T-SQL)
    Delfosti - Medios de Pago
-   Plantilla reutilizable: cargar staging (texto) -> ejecutar -> tabla limpia.
-   Re-ejecutable (idempotente). Mismas reglas que el pipeline Python.
-============================================================================ */
+   cargar staging (texto) -> ejecutar -> tabla limpia.
+   ============================================================================ */
 IF DB_ID('DelfostiH2') IS NULL CREATE DATABASE DelfostiH2;
 GO
 USE DelfostiH2;
